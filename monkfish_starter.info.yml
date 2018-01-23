@@ -1,0 +1,76 @@
+name: Monkfish Starter kit
+type: profile
+description: 'Enhanced Drupal with basics modules.'
+core: 8.x
+
+distribution:
+  name: Monkfish Starter.
+  langcode: fr
+
+# Required modules
+dependencies:
+  # core
+  - automated_cron
+  - block
+  - breakpoint
+  - ckeditor
+  - color
+  - comment
+  - config
+  - contact
+  - contextual
+  - block_content
+  - menu_link_content
+  - dblog
+  - field
+  - field_ui
+  - filter
+  - help
+  - history
+  - dynamic_page_cache
+  - page_cache
+  - menu_ui
+  - node
+  - path
+  - quickedit
+  - rdf
+  - responsive_image
+  - search
+  - shortcut
+  - system
+  - taxonomy
+  - editor
+  - toolbar
+  - tour
+  - update
+  - user
+  - views
+  - views_ui
+# field types
+  - datetime
+  - file
+  - image
+  - link
+  - options
+  - text
+# multilingual
+  - language
+  - locale
+# contrib
+  - admin_toolbar
+  - admin_toolbar_links_access_filter
+  - admin_toolbar_tools
+  - devel
+  - kint
+  - pathauto
+  - responsive_preview
+  - twig_extensions
+  - twig_field_value
+  - twig_tweak
+
+# Themes
+themes:
+  - stable
+  - classy
+  - bartik
+  - seven
