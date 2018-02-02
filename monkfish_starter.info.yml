@@ -4,7 +4,7 @@ description: 'Enhanced Drupal with basics modules.'
 core: 8.x
 
 distribution:
-  name: Monkfish Starter.
+  name: Monkfish Starter
   langcode: fr
 
 # Required modules
