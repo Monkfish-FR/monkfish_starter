@@ -25,10 +25,11 @@ class AddModulesForm extends FormBase {
       '#multiple' => TRUE,
       '#options' => [
         'monkfish_adminimal' => 'Adminimal theme',
+        'monkfish_slick' => 'Slick package',
       ],
       '#title' => t('Do you want to install these modules?'),
     ];
-
+// _TODO: description for the module (fieldset? markup?)
     $form['actions'] = ['#type' => 'actions'];
     $form['actions']['submit'] = [
       '#type' => 'submit',
@@ -52,7 +53,10 @@ class AddModulesForm extends FormBase {
    */
   public function submitForm(array &$form, FormStateInterface $form_state) {
     $modules = $form_state->getValue('modules');
-    \Drupal::service('module_installer')->install($modules);
+
+    if (!empty($modules)) {
+      \Drupal::service('module_installer')->install($modules);
+    }
   }
 
 }
