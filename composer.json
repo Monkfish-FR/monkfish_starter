@@ -30,6 +30,11 @@
         "monkfish-fr/monkfish_adminimal": "dev-master",
         "monkfish-fr/monkfish_slick": "dev-master"
     },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true
+    },
     "extra": {
         "patches": {
             "drupal/twig_extensions": {
