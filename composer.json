@@ -23,10 +23,10 @@
         "drupal/core": "~8.4",
         "drupal/devel": "^1.2",
         "drupal/pathauto": "^1.0",
-        "drupal/responsive_preview": "^1.0",
+        "drupal/responsive_preview": "^1.0@alpha",
         "drupal/twig_extensions": "^1.0",
         "drupal/twig_field_value": "^1.1",
-        "drupal/twig_tweak": "^2.0",
+        "drupal/twig_tweak": "^2.0@alpha",
         "monkfish-fr/monkfish_adminimal": "dev-master",
         "monkfish-fr/monkfish_slick": "dev-master"
     },
