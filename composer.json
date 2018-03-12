@@ -33,7 +33,7 @@
     "extra": {
         "patches": {
             "drupal/twig_extensions": {
-                "Fix Twig extensions trans bug": "https://www.drupal.org/files/issues/error_after_upgrading-2726531-9.patch"
+                "Fix Twig extensions trans bug": "patches/error_after_upgrading-2726531-9.patch"
             }
         }
     }
