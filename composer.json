@@ -32,7 +32,6 @@
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "enable-patching": true,
     "config": {
         "sort-packages": true
     },
