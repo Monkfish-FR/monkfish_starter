@@ -56,7 +56,7 @@ function monkfish_starter_form_install_configure_form_alter(&$form, FormStateInt
 function monkfish_starter_install_tasks(&$install_state) {
   return [
     'monkfish_starter_add_modules' => [
-      'display_name' => t('Additional modules'),
+      'display_name' => t('Additional packages'),
       'display' => TRUE,
       'type' => 'form',
       'function' => 'Drupal\monkfish_starter\Form\AddModulesForm',
